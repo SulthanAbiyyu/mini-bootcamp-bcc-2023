@@ -6,5 +6,12 @@ cm.update(
     "rise",
     {
         "backimage": "bg.jpg",
+        "enable_chalkboard": True
      }
 )
+
+cm.update('livereveal', {
+        'width': 1024,
+        'height': 768,
+        'scroll': True,
+})
